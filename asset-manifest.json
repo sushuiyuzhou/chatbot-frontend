@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/chatbot/static/js/main.3d56c32c.chunk.js",
-    "main.js.map": "/chatbot/static/js/main.3d56c32c.chunk.js.map",
-    "runtime-main.js": "/chatbot/static/js/runtime-main.8c55ad46.js",
-    "runtime-main.js.map": "/chatbot/static/js/runtime-main.8c55ad46.js.map",
-    "static/js/2.296a5ffa.chunk.js": "/chatbot/static/js/2.296a5ffa.chunk.js",
-    "static/js/2.296a5ffa.chunk.js.map": "/chatbot/static/js/2.296a5ffa.chunk.js.map",
-    "index.html": "/chatbot/index.html",
-    "precache-manifest.50b2f351d8902b126d946d726513fe46.js": "/chatbot/precache-manifest.50b2f351d8902b126d946d726513fe46.js",
-    "service-worker.js": "/chatbot/service-worker.js",
-    "static/js/2.296a5ffa.chunk.js.LICENSE.txt": "/chatbot/static/js/2.296a5ffa.chunk.js.LICENSE.txt",
-    "static/media/rain.jpg": "/chatbot/static/media/rain.84ff5913.jpg"
+    "main.js": "/chatbot-frontend/static/js/main.8d77e7f3.chunk.js",
+    "main.js.map": "/chatbot-frontend/static/js/main.8d77e7f3.chunk.js.map",
+    "runtime-main.js": "/chatbot-frontend/static/js/runtime-main.238c6d92.js",
+    "runtime-main.js.map": "/chatbot-frontend/static/js/runtime-main.238c6d92.js.map",
+    "static/js/2.296a5ffa.chunk.js": "/chatbot-frontend/static/js/2.296a5ffa.chunk.js",
+    "static/js/2.296a5ffa.chunk.js.map": "/chatbot-frontend/static/js/2.296a5ffa.chunk.js.map",
+    "index.html": "/chatbot-frontend/index.html",
+    "precache-manifest.4c7bf6827bb8c06866872d6eb3185e11.js": "/chatbot-frontend/precache-manifest.4c7bf6827bb8c06866872d6eb3185e11.js",
+    "service-worker.js": "/chatbot-frontend/service-worker.js",
+    "static/js/2.296a5ffa.chunk.js.LICENSE.txt": "/chatbot-frontend/static/js/2.296a5ffa.chunk.js.LICENSE.txt",
+    "static/media/rain.jpg": "/chatbot-frontend/static/media/rain.84ff5913.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8c55ad46.js",
+    "static/js/runtime-main.238c6d92.js",
     "static/js/2.296a5ffa.chunk.js",
-    "static/js/main.3d56c32c.chunk.js"
+    "static/js/main.8d77e7f3.chunk.js"
   ]
 }
