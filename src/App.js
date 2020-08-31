@@ -54,6 +54,7 @@ const appStyles = makeStyles((theme) => ({
     // display: "flex",
     // flexDirection: "column",
     // justifyContent: "center",
+    marginTop: theme.spacing(1),
     width: "90%",
     display: "block",
   },
