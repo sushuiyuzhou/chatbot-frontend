@@ -51,9 +51,11 @@ const appStyles = makeStyles((theme) => ({
   },
   chatWindow: {
     height: "80vh",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
+    // display: "flex",
+    // flexDirection: "column",
+    // justifyContent: "center",
+    width: "90%",
+    display: "block",
   },
   userInput: {
     height: "10vh",

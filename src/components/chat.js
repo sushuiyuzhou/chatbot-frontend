@@ -10,7 +10,8 @@ import UserSentence from "./user-sentence";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: "450px",
+    minWidth: "300px",
+    width: "100%",
     overflow: "auto",
     marginTop: "5px",
   },

@@ -14,6 +14,7 @@ import AdbIcon from "@material-ui/icons/Adb";
 import AnnouncementIcon from "@material-ui/icons/Announcement";
 import DirectionsRunIcon from "@material-ui/icons/DirectionsRun";
 import { Typography } from "@material-ui/core";
+import Tooltip from "@material-ui/core/Tooltip";
 
 const useStyles = makeStyles((theme) => ({
   userInputRoot: {
@@ -62,11 +63,15 @@ const TextComponent = ({
 
   const [question, setQuestion] = useState("");
 
+  const triggerQuestion = () => {
+    submitUserQuestion(question);
+    setQuestion("");
+    submitForChatbotAnswer(question);
+  };
+
   const onKeyPress = (evt) => {
     if (evt.keyCode === 13) {
-      submitUserQuestion(question);
-      setQuestion("");
-      submitForChatbotAnswer(question);
+      triggerQuestion();
     }
   };
 
@@ -84,10 +89,12 @@ const TextComponent = ({
           onKeyDown={onKeyPress}
         ></TextField>
       </div>
-      <div className={classes.profile}>
-        <Typography variant="caption">{name}</Typography>
-        {getUserIcon(icon)}
-      </div>
+      <Tooltip title="Send" aria-label="Send">
+        <div className={classes.profile} onClick={triggerQuestion}>
+          <Typography variant="caption">{name}</Typography>
+          {getUserIcon(icon)}
+        </div>
+      </Tooltip>
       &nbsp;
     </Paper>
   );
